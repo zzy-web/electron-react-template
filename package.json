@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "electron:dev": "electron . dev"
+    "electron:dev": "electron . dev",
+    "electron:build": "electron-packager . template --win --out dist --arch=x64 --app-version 1.0.0 --overwrite --ignore=node_modules"
   },
   "eslintConfig": {
     "extends": "react-app"
